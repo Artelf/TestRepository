@@ -2,20 +2,20 @@ name: Merge master into develop
 on:
   push:
     branches:
-      - master
+      - develop
 jobs:
-  mergeIntoDevelop:
+  mergeIntoM1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: develop          
+          ref: m1          
       - name: set user name
         run: |          
           git config --global user.email "baturaartyom@inbox.ru"
           git config --global user.name "Artelf"   
-      - name: merge master into develop
+      - name: merge m1
         run: |        
           git fetch --all
-          git merge origin/master
+          git merge origin/develop
           git push
