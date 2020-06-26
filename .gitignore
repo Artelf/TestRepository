@@ -1,0 +1,81 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+.vscode/
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln*
+*.user
+*.unityproj
+*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+/*.apk
+/ClassDiagram1.cd
+/Assets/Core/Plugins/*.mdb
+/*.obb
+
+
+# ===== #
+# Other #
+# ===== #
+
+/ClientProject/Assets/GamplaySystemsAndControllers/Resources/EditorConfig/EditorConfig.xml
+.idea/
+JetBrains/
+JetBrains.meta
+*.apk
+
+ClientProject/Assets/ToolsAndAdditionalAssets/NavMesh/Examples
+ClientProject/Assets/ToolsAndAdditionalAssets/Spine_Tools/Spine Examples
+
+ClientProject/Assets/LIB
+ClientProject/Assets/LIB\.meta
+
+ClientProject/Assets/GraphicAssetsSources
+
+ClientProject/Assets/GameEditor/Data/Garbage/*.meta
+ClientProject/Assets/GameEditor/Data/Resources/EditorConfiguration/**/*.meta
+
+ClientProject/Assets/GameStateMgr/
+ClientProject/Assets/GameStateMgr.meta
+
+
+ClientProject/Assets/GameStateMgrSrcLinked/
+ClientProject/Assets/GameStateMgrSrcLinked.meta
+
+ClientProject/Assets/srpg-gamelib/
+ClientProject/Assets/srpg-gamelib.meta
+
+ClientProject/Assets/srpg-gamelibSrcLinked/
+ClientProject/Assets/srpg-gamelibSrcLinked.meta
+
+
+ClientProject/Assets/SharedLibToUnity/
+ClientProject/Assets/SharedLibToUnity.meta
+
+ClientProject/Assets/SharedLibToUnitySrcLinked/
+ClientProject/Assets/SharedLibToUnitySrcLinked.meta
